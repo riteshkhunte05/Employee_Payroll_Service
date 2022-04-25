@@ -9,7 +9,6 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.function.Consumer;
 
-
 public class EmpPayroll_Main {
 
 	static List<EmpPayroll_Service> list = new ArrayList<EmpPayroll_Service>();
@@ -38,7 +37,7 @@ public class EmpPayroll_Main {
 	
 	private void printEmployeeDetails() {
 
-		System.out.println("Employee Details as follows :\n" + list);
+		System.out.println("Writing employee details to console :\n" + list);
 	}
 
 	
@@ -67,6 +66,7 @@ public class EmpPayroll_Main {
 		}
 	}
 
+	
 	
 	public long countLines() throws IOException {
 		long entries = 0;
