@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * Create an Employee Payroll Service to Read from the console 
+ * Create an Employee Payroll Service to Read from the console
  */
 public class EmpPayroll_Main {
 

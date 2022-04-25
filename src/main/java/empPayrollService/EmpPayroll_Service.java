@@ -1,7 +1,5 @@
 package empPayrollService;
-/**
- * Create Employee Payroll Class of id, name and Salary
- */
+
 public class EmpPayroll_Service {
 
 	int empId;
