@@ -22,8 +22,8 @@ public class FileTest {
 	@Test
 	public void givenFileName_AsInput_ShouldReturnFalse_IfNotExists() throws IOException {
 		FileUtil util = new FileUtil();
-		util.deleteFile("demo1.txt");
-		Assert.assertFalse(util.isFileExists("demo1.txt"));
+		util.deleteFile("demo2.txt");
+		Assert.assertFalse(util.isFileExists("demo2.txt"));
 
 	}
 	

@@ -4,7 +4,6 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-
 public class Emp_Test 
     extends TestCase
 {
@@ -14,7 +13,7 @@ public class Emp_Test
         super( testName );
     }
 
-  
+   
     public static Test suite()
     {
         return new TestSuite( Emp_Test.class );

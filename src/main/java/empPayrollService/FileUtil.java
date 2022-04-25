@@ -9,9 +9,6 @@ public class FileUtil {
 
 	private final static String HOME = "E:\\Demo Files\\Employee Payroll service";
 
-	/**
-	 * method to check whether file exists or not
-	 */
 	public boolean isFileExists(final String filename) {
 		String path = HOME + "/" + filename;
 		if (Files.exists(Paths.get(path)))
@@ -20,25 +17,18 @@ public class FileUtil {
 			return false;
 	}
 
-	/**
-	 * method to delete the file
-	 */
+	
 	public void deleteFile(final String filename) throws IOException {
 		String path = HOME + "/" + filename;
 		Files.delete(Paths.get(path));
 	}
 
-	/**
-	 * method to create directory
-	 */
 	public void createDirectory(String directoryName) throws IOException {
 		String path = HOME + "/" + directoryName;
 		Files.createDirectory(Paths.get(path));
 	}
 
-	/**
-	 * method to create empty file
-	 */
+	
 	public void createEmptyFile(String fileName) throws IOException {
 		File file = new File("demo1.txt");
 		file.createNewFile();

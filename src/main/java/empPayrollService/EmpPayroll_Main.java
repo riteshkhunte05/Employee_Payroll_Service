@@ -4,9 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-/**
- * Create an Employee Payroll Service to Read from the console
- */
+
 public class EmpPayroll_Main {
 
 	static List<EmpPayroll_Service> list = new ArrayList<EmpPayroll_Service>();
@@ -17,9 +15,6 @@ public class EmpPayroll_Main {
 
 	}
 
-	/**
-	 * method to read employee details such as employee id, name, salary
-	 */
 	private static void readEmployeeDetails() {
 
 		Scanner scanner = new Scanner(System.in);
@@ -40,9 +35,7 @@ public class EmpPayroll_Main {
 		list.add(employee);
 	}
 
-	/**
-	 * method to print employee details to console
-	 */
+
 	private static void printEmployeeDetails() {
 
 		System.out.println("Employee Details as follows :\n" + list);
